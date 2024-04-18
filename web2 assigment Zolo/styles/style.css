@@ -1,0 +1,148 @@
+body{
+    background-color: rgba(11, 4, 31, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: relative;
+    background: rgb(59, 59, 112) ;
+    width: 430px;
+    height: 500px;
+    top: 50px;
+    left: 500px;
+    padding: 20px 30px;
+    border-radius: 50px;
+
+}
+
+.title{
+    font-size: 30x;
+    font-weight: bold;
+    text-align: center;
+}
+
+.move-icon{
+    height: 70px;
+}
+
+.move-button{
+background-color: transparent; 
+border: 3px solid white;
+width: 130px;
+height: 130px;
+border-radius: 70px;
+margin-right: 10px;
+cursor: pointer;
+
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.reset-score-button{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.reset-score-button:hover{
+    opacity: 0.8;
+}
+
+.reset-score-button :active{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* index2 page style */
+
+body{
+    font-family: "Platypi", serif;
+    font-size: 17.5px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #b0abb8;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #af1a24;
+    padding: 20px;
+    background-color: #759dae;
+    color: aliceblue;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+img {
+    float: left;
+    width: 1050px;
+    height: 300px;
+
+  }
+
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #2a513b;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
