@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="icon" type="images/png" href="../images/logoz.png">
+		<title>Booking</title>
+
+  </head>
+	<body>
+			<header>
+		
+			<div class = "logoM"><h1><img src="../images/logo-min.jpg" alt= "logo"></h1></div> <!-- logo file path-->
+				
+			<div class = "headerM">
+				<h2>Welcome to college portal</h2>
+				<h3>Register on </h3>
+				
+			</div>
+			</header>
+			<nav class="navbar navbar-expand-sm bg-light">
+						<div class="container-fluid">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" href="../index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/chess.html">Chess portal</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/guessing-game.html">wanna play!</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/guessing-game.html">pool portal</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/rpcrules.html">rpc rules</a>
+								</li>
+								
+							 </ul>
+						</div>
+					</nav>
+					<br>
+			
+		  
+				<<div class="wrapper">
+					<form action="/action_page.php">
+					
+						<label for="fname">First Name</label>
+							<input type="text" id="fname" name="firstname" required minlength="3" maxlength="20" placeholder="Your name.." required>
+						<br><br><br>
+						<label for="lname">Last Name</label>
+							<input type="text" id="lname" name="lastname" required minlength="3" maxlength="20" placeholder="Your last name.."required>
+						<br><br><br>
+						<label for="Email">Email:</label>
+							<input type="text" id="Email" name="email"	placeholder="Your Email address.."required>
+						<br><br><br>
+						<label for="Phone number">Phone number:</label>
+							<input type="text" id="Phone number" name="email" maxlength="10" placeholder="Your Phone number.."required>
+	
+    
+						<br><br><br>
+						<label for="button4">pick your tournament:</label><br>
+						
+						<input type="checkbox" id="Pool Tournament" name="Pool Tournament">
+						
+						<label for="vehicle1">Pool Tournament</label><br>
+						
+						<input type="checkbox" id="Chess Tournament" name="Female" value="Chess Tournament">
+						<label for="vehicle1">Chess Tournament</label><br>
+						
+						<input type="checkbox" id="reser" name="Other" value="Other">
+							<label for="vehicle1"></label><br>
+						
+						<input type="checkbox" id="Prefer not to say" name="Prefer not to say" value="Prefer not to say">
+							<label for="vehicle1">Prefer not to say</label><br>
+						<br>
+						
+						
+						<label class="form_label">Your desired pet</label><br >
+						<select>
+								<option value = "Cat">Prefrence area</option>
+								<option value = "Dog">Fluffy</option>
+								<option value = "Guinea">Micky</option>
+								<option value = "Parrot">Ringo</option>
+						</select><br ><br >
+	
+ 
+						<!-- comments box -->
+		
+						<div>
+								<p>Do you want to leave us any additional comment?</p>
+								<textarea id="bio" name="comment"></textarea>
+						</div>
+ 
+ 
+ 
+						<input type="Submit" value="Submit">
+	
+	
+						
+				
+			</form>
+						</div>
+   
+					<hr>
+						<footer class = "footerM">
+						<p><b>All rights reserved©collegestaff</b></p>
+						</footer>
+		</body>
+ 
+</html>
